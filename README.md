@@ -82,26 +82,14 @@ Dr. Loes Bouman
 l.bouman@rug.nl
 
 ### DataFryslân
-Monique van der Meer, programme manager
+Monique van der Meer, Programme Manager
 monique.van.der.meer@datafryslan.nl
 
-Nynke Slagter, data analyst
+Nynke Slagter, Senior Data Scientist
 nynke.slagter@datafryslan.nl
 
-Jeska Everhard, intern
+Anita Nguyen, Data Scientist
+anita.nguyen@datafryslan.nl
+
+Jeska Everhard, Intern
 jeska.everhard@datafryslan.nl
-
-## Version History
-TBA
-* 0.2
-* 0.1
-
-## License
-
-TBD
-See the LICENSE.md file for details
-
-## Acknowledgments
-
-ReadME Template
-* [DomPizzie] https://gist.github.com/DomPizzie/7a5ff55ffa9081f2de27c315f5018afc 
