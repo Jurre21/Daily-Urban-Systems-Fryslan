@@ -45,21 +45,31 @@ voorzieningenbeleid.
 
 ### Dependencies
 
-TBD
-
-### Installing
-
-TBD
+- Recommended Python version: 3.14.3
+    Libraries: See 'requirements.txt'
+- CBSodata API
+- GTFS-nl Data
+- CBS Gebiedsindelingen Geopackages
 
 ### Executing program
 
-TBD
+Simulatie.ipynb
 
-## Help
+### Tutorial
 
-TBD
+1. Open de repository in your workspace
+2. Download GTFS-nl Data (gtfs-nl.zip) from the following link:
+   https://gtfs.ovapi.nl/nl/
+   Download CBS Gebiedsindelingen data from the following link:
+   https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data/cbs-gebiedsindelingen
+   Important: Extract both .zip files!
+4. A. Create a virtual environment 
+   B. Navigate to your newly created virtual environment through the terminal
+   C. Run the following command: pip install requirements.txt
+5. Open 'Simulatie.ipynb' and set the correct paths to your .gpkg and GTFS folders
+6. Run the Notebook (runtime ~15-30min)
 
-## Authors
+## Stakeholders
 
 ### Students:
 Jelmer de Boer (S5986567)
