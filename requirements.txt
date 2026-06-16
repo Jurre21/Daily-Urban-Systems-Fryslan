@@ -12,3 +12,7 @@ networkx
 tqdm
 shapely
 folium
+scikit-learn
+os
+heapq
+collections
