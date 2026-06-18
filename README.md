@@ -1,6 +1,6 @@
-# RUG x DataFryslân - Field Project Data Science & Society 2026: Mapping and Modelling Daily Urban Systems in Fryslân
+# RUG x DataFryslân - Field Project Data Science & Society 2026: Mapping and Modelling Daily Urban Systems (DUS) in Fryslân
 
-This Github Repository contains scripts, datasources and other aspects related to the DUS Field Project
+This Github Repository contains the simulation, its dependacies and information in relation to the DUS Field Project
 
 ## Field Project Description (in Dutch)
 
@@ -45,11 +45,16 @@ voorzieningenbeleid.
 
 ### Dependencies
 
-- Recommended Python version: 3.14.3
-    Libraries: See 'requirements.txt'
+- Python (v3.13 or newer will do)
+- Libraries: See 'requirements.txt'
 - CBSodata API
 - GTFS-nl Data
 - CBS Gebiedsindelingen Geopackages
+
+### Recommended
+
+It is highly recommended to download the used GTFS data, CBS geodata and **cached OSM networks** (.graphml files) from the following link:
+https://drive.google.com/drive/folders/1lDKftLGJ5SvUrCOaiejzjcBiFb2NF_SN?usp=sharing
 
 ### Executing program
 
@@ -58,16 +63,18 @@ Simulatie.ipynb
 ### Tutorial
 
 1. Open de repository in your workspace
-2. Download GTFS-nl Data (gtfs-nl.zip) from the following link:
+2. Download GTFS-nl Data (gtfs-nl.zip) from the following link (or the link above!):
    https://gtfs.ovapi.nl/nl/
-   Download CBS Gebiedsindelingen data from the following link:
+   Download CBS Gebiedsindelingen data from the following link (or the link above!):
    https://www.cbs.nl/nl-nl/dossier/nederland-regionaal/geografische-data/cbs-gebiedsindelingen
-   Important: Extract both .zip files!
+   Important: Extract all .zip files!
 4. A. Create a virtual environment 
    B. Navigate to your newly created virtual environment through the terminal
    C. Run the following command: pip install requirements.txt
-5. Open 'Simulatie.ipynb' and set the correct paths to your .gpkg and GTFS folders
-6. Run the Notebook (runtime ~15-30min)
+5. Open 'Simulatie.ipynb' and set the correct paths to your .gpkg and GTFS folders and 'avondspits.csv'
+6. Read the markdowns in the notebook to become familiar with the content
+7. Run the Notebook (runtime ~10-30min, dependant on datasources and API's)
+8. Inspect the newly created folder Simulatie_Resultaten for the results
 
 ## Stakeholders
 
@@ -103,3 +110,7 @@ anita.nguyen@datafryslan.nl
 
 Jeska Everhard, Intern
 jeska.everhard@datafryslan.nl
+
+### Contact
+For troubleshooting, inquiries or other requests, contact the author:
+j.r.p.de.vries@student.rug.nl
